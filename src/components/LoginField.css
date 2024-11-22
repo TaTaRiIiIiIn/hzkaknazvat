@@ -1,0 +1,59 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.login-container {
+    width: 543px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+
+.password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-password  {
+    width: 543px;
+    height: 57px;
+    border: none;
+    border-radius: 5px;
+    color:#6f6f6f;
+    background: #e4e4e4;
+}
+.submit-button {
+    width: 543px;
+    height: 57px;
+    border: none;
+    border-radius: 5px;
+    background: #000000;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.toggle-button {
+    position: absolute;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.toggle-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+
+}
