@@ -1,0 +1,11 @@
+.Login__{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.title{
+    margin-bottom: 40px;
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+@import url('https://fonts.cdnfonts.com/css/lt-superior');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 105px;
+  width: 244px;
+  flex-direction: column;
+  background: #191919;
+  border-radius: 0 0 26px 26px;
+  gap: 16px;
+}
+
+.Email {
+    color: #999;
+    font-family: "LT Superior";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.ToggleTheme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 218px;
+  border-bottom:1px solid white ;
+}
+.ToggleTheme__text {
+    color: #FFF;
+    text-align: center;
+    font-family: "LT Superior";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.LogOut {
+    display: inline-flex;
+    align-items: center;
+    width: 66px;
+    height: 19px;
+    gap: 6px;
+}
+.LogOut__text {
+    color: #FFF;
+    font-family: "LT Superior";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+

@@ -1,0 +1,18 @@
+.App{
+    background: black;
+    width: 1440px;
+    height: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.App__content{
+    display: flex;
+    gap: 27px;
+}
+
+.Tables{
+    display: flex;
+    flex-direction: column;
+    gap: 27px
+}

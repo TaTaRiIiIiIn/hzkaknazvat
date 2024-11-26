@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.Graph {
+  width: 872.607px;
+  height: 376.902px;
+  flex-shrink: 0;
+  border-radius: 19px;
+  background: #2E2E2E;
+}
+.Graph__head {
+  display: flex;
+  width: 846px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.Graph__head__stat {
+  width: 146px;
+  height: 37.2px;
+  display: flex;
+  align-items: center;
+  gap: 17.126px;
+  position: relative;
+}
+.Graph__head__stat__icon {
+  display: flex;
+  width: 37.195px;
+  height: 37.195px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7.492px;
+  opacity: 0.8;
+  background: #525252;
+}
+.Graph__head__stat__text {
+  color: var(--main-color, #fff);
+  text-align: center;
+  font-family: "LT Superior";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.Graph__head__date {
+  display: flex;
+  height: 37.462px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.774px;
+}
+
+.Graph__head__date__icon {
+  width: 20.337px;
+  height: 20.337px;
+}
+
+.Graph__head__date__text {
+  color: #fff;
+  text-align: center;
+  font-family: "LT Superior";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Graph__head__time {
+  display: flex;
+  width: 147.709px;
+  height: 37.462px;
+  justify-content: center;
+  align-items: center;
+  gap: 11.774px;
+}
+
+.Graph__head__time__icon {
+  width: 16.055px;
+  height: 16.055px;
+  flex-shrink: 0;
+}
+.Graph__head__time__text {
+  color: #fff;
+  text-align: center;
+  font-family: "LT Superior";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}

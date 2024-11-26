@@ -1,0 +1,100 @@
+@import url("https://fonts.cdnfonts.com/css/lt-superior");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.TransportList {
+  width: 872.607px;
+  height: 402.497px;
+  border-radius: 17.1px;
+  background: #2e2e2e;
+  padding: 13px 13px;
+}
+.List {
+  display: flex;
+    justify-content: space-between;
+}
+.List__title {
+  display: flex;
+  align-items: center;
+  gap: 15.393px;
+}
+.List__title__icon {
+  display: flex;
+  width: 33.432px;
+  height: 33.432px;
+  padding: 7.697px 9.621px;
+  align-items: center;
+  border-radius: 8px;
+  background: #3c3c3c;
+}
+.List__title__text {
+  color: #ffffff;
+  text-align: center;
+  font-family: "LT Superior";
+  font-size: 15.28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.List__input {
+  display: flex;
+  width: 227.051px;
+  height: 33.673px;
+  padding: 5.772px 10.583px;
+  align-items: center;
+  gap: 6.735px;
+  border-radius: 8px;
+  border: 0.962px solid #525252;
+}
+.List__input__icon {
+  width: 20.204px;
+  height: 20.204px;
+}
+
+input {
+  background: none;
+  border: none;
+}
+.List__filtr {
+  display: flex;
+  height: 33.432px;
+  padding: 6.735px 15.393px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.697px;
+  border-radius: 8px;
+  border: 0.962px solid #525252;
+}
+.List__filtr__icon {
+  width: 15.783px;
+  height: 15.783px;
+}
+
+.List__filtr__text {
+  color: var(--Primary-text, #fff);
+  text-align: center;
+  font-family: "LT Superior";
+  font-size: 13.483px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.List__restart {
+  display: flex;
+  width: 33.673px;
+  height: 33.673px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6.735px;
+border: 0.962px solid var(--Stroke, #525252);
+}
+
+.List__buttons{
+    display: flex;
+    gap: 7.697px;
+}
